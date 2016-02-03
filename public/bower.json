@@ -1,0 +1,10 @@
+{
+  "name": "angular-template",
+  "description": "Init a Angular project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.4.9",
+    "angular-ui-router": "0.2.17"
+  }
+}

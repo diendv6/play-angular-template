@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app='hiApp'>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hello Angular</title>
+	<link rel="stylesheet" href="app.style.css">
+</head>
+<body>
+	<h1>Hello AngularJS</h1>
+	<h2>Title Page: {{titlePage}}</h2>
+	<img src="assets/img/xxx.jpg" height="225" width="400" alt="XXX">
+	<div ui-view></div>
+	
+	<p style="text-decoration: underline">Ended Page</p>
+
+	<script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript"></script>
+
+	<script src="app.module.js" type="text/javascript"></script>
+	<script src="app.router.js" type="text/javascript"></script>
+	<script src="views/home/homeCtrl.js" type="application/javascript"></script>
+	<script src="views/signin/signinCtrl.js" type="application/javascript"></script>
+</body>
+</html>
